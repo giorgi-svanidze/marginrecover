@@ -2,6 +2,12 @@
 
 MarginRecover is an AI-assisted revenue recovery platform that helps suppliers detect invalid retailer chargebacks, prioritize disputes, assess evidence readiness, and quantify EBITDA upside from recovery and prevention.
 
+## Demo
+
+![Dashboard](images/dashboard.png)
+![Dispute Queue](images/disputes.png)
+![AI Letter](images/letter.png)
+
 ## What it does
 
 Retailer OTIF and compliance deductions often leak revenue because finance sees the short pay, operations sees the shipping issue, and nobody has a fast dispute workflow. MarginRecover closes that gap by combining:
