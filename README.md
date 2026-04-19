@@ -1,8 +1,26 @@
 # MarginRecover
 
-> Recover lost revenue from retailer chargebacks using data validation and automated dispute generation.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
+![Status](https://img.shields.io/badge/Status-Prototype-orange)
+
+> Recover lost revenue from retailer chargebacks through validation, prioritization, and automated dispute workflows.
 
 MarginRecover is a supply chain analytics tool that helps suppliers identify invalid retailer chargebacks, prioritize disputes, and recover lost revenue through structured workflows and automation.
+
+---
+
+## 🚀 Impact
+
+- Identifies invalid deductions across major retailers (Amazon, Walmart, etc.)
+- Prioritizes disputes based on recovery value and likelihood of success
+- Automates claim documentation → reduces manual workload
+- Provides visibility into revenue leakage across operations
+
+📈 **Example (sample dataset):**
+- $24,700 total deductions analyzed  
+- $15,790 identified as recoverable  
+- 4 high-priority disputes surfaced automatically  
 
 ---
 
@@ -29,7 +47,23 @@ MarginRecover is a supply chain analytics tool that helps suppliers identify inv
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Business Problem
+
+Retailer OTIF and compliance deductions often leak revenue because:
+
+- Finance sees the short pay  
+- Operations sees the shipment  
+- No single owner drives dispute execution  
+
+MarginRecover closes this gap by combining:
+
+- Structured validation logic  
+- Automated documentation  
+- Decision support for recovery  
+
+---
+
+## 🛠 Tech Stack
 
 - Python  
 - Streamlit (frontend UI)  
@@ -37,36 +71,21 @@ MarginRecover is a supply chain analytics tool that helps suppliers identify inv
 - Rule-based validation engine  
 - Modular architecture (data, rules, metrics, AI layers)  
 
----
-
-## ⚙️ What it does
-
-Retailer OTIF and compliance deductions often leak revenue because:
-
-- finance sees the short pay  
-- operations sees the shipment  
-- no one owns dispute execution  
-
-MarginRecover closes this gap by combining:
-
-- structured validation logic  
-- automated documentation  
-- decision support for recovery  
-
----
-
-## 🛠 Run locally
+## ▶️ Run locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
----
+```
 
+---
 ## 🤖 Optional AI setup
 
-If you want live AI summaries and dispute letters, set an API key:
+If you want live AI summaries and dispute letters:
 
+```bash
 export ANTHROPIC_API_KEY="your_key_here"
+```
 
 Without an API key, the app still works using fallback logic.
 
@@ -74,22 +93,24 @@ Without an API key, the app still works using fallback logic.
 
 ## 📁 Repo structure
 
-marginrecover/  
-├── app.py  
-├── ai.py  
-├── charts.py  
-├── components.py  
-├── config.py  
-├── data.py  
-├── metrics.py  
-├── models.py  
-├── rules.py  
-├── requirements.txt  
-├── sample_data.csv  
-└── images/  
-  ├── dashboard.png  
-  ├── disputes.png  
-  └── letter.png  
+```text
+marginrecover/
+├── app.py
+├── ai.py
+├── charts.py
+├── components.py
+├── config.py
+├── data.py
+├── metrics.py
+├── models.py
+├── rules.py
+├── requirements.txt
+├── sample_data.csv
+└── images/
+    ├── dashboard.png
+    ├── disputes.png
+    └── letter.png
+```
 
 ---
 
