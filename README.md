@@ -4,9 +4,8 @@
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
 ![Status](https://img.shields.io/badge/Status-MVP-green)
 
-> Recover lost revenue from retailer chargebacks through validation, prioritization, and automated dispute workflows.
-
-MarginRecover is a supply chain analytics tool that helps suppliers identify invalid retailer chargebacks, prioritize disputes, and recover lost revenue through structured workflows and automation.
+> Retailer deductions cost suppliers billions annually — most go undisputed because no one owns the process end-to-end.  
+> MarginRecover identifies invalid chargebacks, prioritizes disputes, and automates recovery workflows.
 
 ---
 
