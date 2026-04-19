@@ -1,54 +1,106 @@
 # MarginRecover
 
-MarginRecover is an AI-assisted revenue recovery platform that helps suppliers detect invalid retailer chargebacks, prioritize disputes, assess evidence readiness, and quantify EBITDA upside from recovery and prevention.
+MarginRecover is an AI-assisted revenue recovery platform that helps suppliers detect invalid retailer chargebacks, prioritize disputes, and quantify EBITDA upside from recovery and prevention.
 
-## Demo
+---
 
-![Dashboard](images/dashboard.png)
-![Dispute Queue](images/disputes.png)
-![AI Letter](images/letter.png)
+## 🚀 Key Feature
 
-## What it does
+Suppliers lose millions annually to retailer chargebacks — not because they’re wrong, but because they lack structured dispute workflows.
 
-Retailer OTIF and compliance deductions often leak revenue because finance sees the short pay, operations sees the shipping issue, and nobody has a fast dispute workflow. MarginRecover closes that gap by combining:
+MarginRecover transforms messy deduction data into:
+- clear validation decisions  
+- prioritized recovery actions  
+- and fully documented dispute cases  
 
-- rules-based deduction validation
-- evidence-readiness scoring
-- dispute prioritization
-- AI-generated executive summaries
-- AI-generated dispute letters
-- impact simulation for finance and operations leaders
+It doesn’t just analyze problems — it generates **ready-to-submit dispute letters**, turning a slow, manual process into an automated recovery engine.
 
-## Repo structure
+---
 
-```text
-marginrecover_refactor/
-├── app.py
-├── ai.py
-├── charts.py
-├── components.py
-├── config.py
-├── data.py
-├── metrics.py
-├── models.py
-├── rules.py
-├── requirements.txt
-└── sample_data.csv
-```
+## 📊 Demo
 
-## Run locally
+### Portfolio Dashboard — Revenue leakage visibility  
+<img src="images/dashboard.png" width="800"/>
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+### Dispute Queue — Prioritized recovery pipeline  
+<img src="images/disputes.png" width="800"/>
 
-## Optional AI setup
+### AI Dispute Letter — Automated claim documentation  
+<img src="images/letter.png" width="800"/>
 
-If you want live AI summaries and dispute letters, set an Anthropic API key:
+---
 
-```bash
+## ⚙️ What it does
+
+Retailer OTIF and compliance deductions often leak revenue because:
+- finance sees the short pay  
+- operations sees the shipment  
+- but no one owns dispute execution  
+
+MarginRecover closes this gap by combining:
+
+- rules-based deduction validation  
+- evidence-readiness scoring  
+- dispute prioritization  
+- AI-generated executive summaries  
+- AI-generated dispute letters  
+- impact simulation for finance and operations leaders  
+
+---
+
+## 🧠 Why this matters
+
+Most suppliers:
+- under-dispute valid claims  
+- lack structured documentation  
+- treat deductions reactively  
+
+MarginRecover enables:
+- faster recovery cycles  
+- higher dispute win rates  
+- data-driven supply chain accountability  
+
+---
+
+## 🛠 Run locally
+
+pip install -r requirements.txt  
+streamlit run app.py  
+
+---
+
+## 🤖 Optional AI setup
+
+If you want live AI summaries and dispute letters, set an API key:
+
 export ANTHROPIC_API_KEY="your_key_here"
-```
 
-Without an API key, the app still works using safe fallback text.
+Without an API key, the app still works using fallback logic.
+
+---
+
+## 📁 Repo structure
+
+marginrecover/  
+├── app.py  
+├── ai.py  
+├── charts.py  
+├── components.py  
+├── config.py  
+├── data.py  
+├── metrics.py  
+├── models.py  
+├── rules.py  
+├── requirements.txt  
+├── sample_data.csv  
+└── images/  
+  ├── dashboard.png  
+  ├── disputes.png  
+  └── letter.png  
+
+---
+
+## 👤 Author
+
+Giorgi Svanidze  
+Chemical Engineering + Supply Chain @ Case Western Reserve University
