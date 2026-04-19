@@ -27,7 +27,7 @@
 
 ---
 
-## 🚀 Core Capabilities
+## ⚙️ Core Capabilities
 
 - Rule-based deduction validation  
 - Evidence-readiness scoring  
