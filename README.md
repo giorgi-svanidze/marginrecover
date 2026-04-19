@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
-![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
 > Recover lost revenue from retailer chargebacks through validation, prioritization, and automated dispute workflows.
 
