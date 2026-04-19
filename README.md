@@ -7,6 +7,10 @@
 > Retailer deductions cost suppliers billions annually — most go undisputed because no one owns the process end-to-end.  
 > MarginRecover identifies invalid chargebacks, prioritizes disputes, and automates recovery workflows.
 
+## 🔗 Live Demo
+
+[Open the app](https://marginrecover-6vmmmkfhv2ds5hokzqqetm.streamlit.app/)
+
 ---
 
 ## 🚀 Impact
