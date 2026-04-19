@@ -35,6 +35,8 @@
 - Automated dispute letter generation  
 - Revenue impact simulation  
 
+Supports optional LLM-powered dispute generation (Anthropic API), with deterministic fallback logic.
+
 ---
 
 ## 📊 Demo
