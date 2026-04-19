@@ -46,11 +46,3 @@ export ANTHROPIC_API_KEY="your_key_here"
 ```
 
 Without an API key, the app still works using safe fallback text.
-
-## Suggested GitHub blurb
-
-Built an AI-assisted supply chain revenue recovery platform that identifies invalid retailer chargebacks, prioritizes disputes based on evidence readiness and recoverable value, and models EBITDA upside from recovery and prevention.
-
-## Suggested resume bullet
-
-Developed MarginRecover, an AI-assisted supply chain analytics platform that evaluates retailer OTIF and compliance deductions, prioritizes disputes using recoverable value and evidence readiness, and generates structured dispute documentation for invalid chargebacks.
