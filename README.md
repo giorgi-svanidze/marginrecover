@@ -1,7 +1,6 @@
 # MarginRecover
 
-MarginRecover is an AI-assisted revenue recovery platform that helps suppliers detect invalid retailer chargebacks, prioritize disputes, and quantify EBITDA upside from recovery and prevention.
-
+MarginRecover is a supply chain analytics tool that helps suppliers identify invalid retailer chargebacks, prioritize disputes, and recover lost revenue.
 ---
 
 ## 🚀 Key Feature
